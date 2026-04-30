@@ -17,7 +17,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-VIRUSTOTAL_API_KEY = os.getenv("VIRUSTOTAL_API_KEY")
+
 
 from encryption import (  
     encrypt_and_sign,  
@@ -35,8 +35,9 @@ from logger import log_event, export_logs_to_csv, fetch_logs, fetch_virustotal_l
 from notifier import send_push_notification  
 from utils import scan_with_virustotal  
   
-VIRUSTOTAL_API_KEY = "your_api_key"  # better to keep in env later  
-  
+VIRUSTOTAL_API_KEY = os.getenv("VIRUSTOTAL_API_KEY")
+if not VIRUSTOTAL_API_KEY:
+    raise ValueError("VirusTotal API key not found. Set it in .env file.")
   
 class SecureFileTransferApp:  
     def __init__(self, root):  
