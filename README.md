@@ -151,15 +151,9 @@ secure_file_transfer/
 ```bash
         sudo apt install steghide
 ```
-
-### 5. Environment Setup
-Create a `.env` file:
-```env
-    PUSHBULLET_TOKEN=your_token_here
-```
 ---
 
-## Configuration
+## Configuration (Environment Setup)
 
 ### Pushbullet Token
 Create a `.env` file:
