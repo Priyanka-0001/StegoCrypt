@@ -1,5 +1,5 @@
 # StegoCrypt - Secure File Sharing System with Integrated Threat Detection
-> 🚀 A multi-layered secure file transfer system combining encryption, steganography, and malware detection for end-to-end protection.
+> A multi-layered secure file transfer system combining encryption, steganography, and malware detection for end-to-end protection.
 
 A secure file transfer system that ensures confidentiality, integrity, and authenticity using encryption, steganography, and malware detection.
 StegoCrypt is a Python-based tool for **secure file transmission** that combines:
