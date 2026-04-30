@@ -13,6 +13,12 @@ import importlib
 import encryption
 importlib.reload(encryption)
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+VIRUSTOTAL_API_KEY = os.getenv("VIRUSTOTAL_API_KEY")
+
 from encryption import (  
     encrypt_and_sign,  
     decrypt_and_verify_signature,  
@@ -29,7 +35,7 @@ from logger import log_event, export_logs_to_csv, fetch_logs, fetch_virustotal_l
 from notifier import send_push_notification  
 from utils import scan_with_virustotal  
   
-VIRUSTOTAL_API_KEY = "da13731fdeb3603fbd074c54955af4d7c0e50d75badcbd0ed5a10c9821b6abf4"  # better to keep in env later  
+VIRUSTOTAL_API_KEY = "your_api_key"  # better to keep in env later  
   
   
 class SecureFileTransferApp:  
