@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.env
+database.db
+*.pem
+*.key
+received/
+payload.zip
+stegofile.jpeg
+final_package.zip
+encrypted_passphrase.bin
+*.csv
+*.pdf
