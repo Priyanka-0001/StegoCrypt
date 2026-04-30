@@ -172,21 +172,22 @@ Update in `gui.py`:
 ## How to Use
 ### Run the application
 ```bash
-        python main.py
+    python main.py
 ```
 
 **Options from GUI:**
-                  Encrypt & Send: Encrypts, signs, and hides the file in an image. Sends the stego image + encrypted passphrase.
+                  
+    Encrypt & Send: Encrypts, signs, and hides the file in an image. Sends the stego image + encrypted passphrase.
 
-                  Receive & Decrypt: Extracts, verifies, decrypts, scans, and monitors the file.
+    Receive & Decrypt: Extracts, verifies, decrypts, scans, and monitors the file.
 
-                  View Logs: Displays VirusTotal and event logs.
+    View Logs: Displays VirusTotal and event logs.
 
-                  Export Logs to CSV: Downloads activity + scan results to logs_output.csv.
+    Export Logs to CSV: Downloads activity + scan results to logs_output.csv.
 
-                  Reset Environment: Deletes temporary files and optionally keys.
+    Reset Environment: Deletes temporary files and optionally keys.
 
-                  Exit: Closes the Application.
+    Exit: Closes the Application.
 
 ---
 
