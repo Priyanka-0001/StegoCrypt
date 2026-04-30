@@ -130,26 +130,26 @@ secure_file_transfer/
 
 ### 1. Clone the repository
 ```bash
-    git clone 
-    https://github.com/YOUR_USERNAME/StegoCrypt.git
-    cd StegoCrypt
+git clone 
+https://github.com/YOUR_USERNAME/StegoCrypt.git
+cd StegoCrypt
 ```
 
 ### 2. Create virtual environment
 ```bash
-    python3 -m venv venv
-    source venv/bin/activate     # Linux
-    venv\Scripts\activate        # Windows
+python3 -m venv venv
+source venv/bin/activate     # Linux
+venv\Scripts\activate        # Windows
 ```
 
 ### 3. Install dependencies
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 4. Install steghide
 ```bash
-    sudo apt install steghide
+sudo apt install steghide
 ```
 ---
 
@@ -158,13 +158,13 @@ secure_file_transfer/
 ### Pushbullet Token
 Create a `.env` file:
 ```env 
-    PUSHBULLET_TOKEN= your_token_here  (Replace the placeholder in notifier.py)
+PUSHBULLET_TOKEN= your_token_here  (Replace the placeholder in notifier.py)
 ```
 
 ### VirusTotal API Key
 Update in `gui.py`:
 ```python
-    VIRUSTOTAL_API_KEY = your_actual_key_here  (Set your API key in gui.py or utils.py)
+VIRUSTOTAL_API_KEY = your_actual_key_here  (Set your API key in gui.py or utils.py)
 ```
 
 ---
@@ -172,7 +172,7 @@ Update in `gui.py`:
 ## How to Use
 ### Run the application
 ```bash
-    python main.py
+python main.py
 ```
 
 **Options from GUI:**
