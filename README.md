@@ -82,16 +82,18 @@ This system addresses these issues using:
 
 ---
 
-## Technologies Used
+## Tech Stack
 
-- Language: Python
-- GUI: Tkinter
-- Encryption: Cryptography Library
-- Steganography: Steghide
-- Database: SQLite
-- APIs: VirusTotal, Pushbullet
-- Monitoring: inotify
-- Others: python-magic, requests
+| Category | Technology |
+|-----------|------------|
+| Language | Python |
+| GUI | Tkinter |
+| Encryption | Cryptography Library |
+| Steganography | Steghide |
+| Database | SQLite |
+|  APIs |  VirusTotal, Pushbullet |
+| Monitoring | inotify |
+| Others | python-magic, requests |
 
 ---
 
